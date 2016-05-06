@@ -20,9 +20,9 @@ env:
 addons:
   coverity_scan:
     project:
-      name: "ananno/Project-PI"
+      name: "enamulhasan/circleCi"
       description: "<Your project description here>"
-    notification_email: ananno@outlook.com
+    notification_email: enamul.hasan@bjitgroup.com
     build_command_prepend: "rm -rf *.x"
     build_command:   "gcc makepi_serial.c -o makepi_serial.x && gcc -fopenmp makepi_omp.c -o makepi_omp.x"
     branch_pattern: coverity_scan
